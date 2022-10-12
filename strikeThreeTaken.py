@@ -36,4 +36,4 @@ for i in range(len(df_twoStrikes)):
 for i, label in enumerate(annotations):
     plt.annotate(label, (df_twoStrikes.iloc[i]['PlateLocSide'], df_twoStrikes.iloc[i]['PlateLocHeight']+0.1))
 
-df_twoStrikes
+plt.show() 
