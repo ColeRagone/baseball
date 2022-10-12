@@ -33,3 +33,5 @@ for i in range(len(df_temp)):
 for i, label in enumerate(annotations): 
     plt.annotate(round(label, 2), (df_temp.iloc[i]['PlateLocSide']+0.05, df_temp.iloc[i]['PlateLocHeight']))
     plt.annotate(df_temp.iloc[i]['Batter'], (df_temp.iloc[i]['PlateLocSide']+0.05, df_temp.iloc[i]['PlateLocHeight']+0.1))
+    
+plt.show() 
